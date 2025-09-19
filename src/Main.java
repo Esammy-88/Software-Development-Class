@@ -10,9 +10,7 @@ public class Main {
         addressBook.addBuddy(buddy);
         System.out.println("Added buddy: " + buddy.getName());
 
-        // Remove the BuddyInfo from the AddressBook
-        addressBook.removeBuddy(0);
-        System.out.println("Removed buddy: " + buddy.getName());
+
 
     }
 }
